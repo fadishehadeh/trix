@@ -246,6 +246,20 @@ h1 em {
   opacity: .88;
 }
 
+.demo-link {
+  display: inline-block;
+  margin-top: .75rem;
+  font-family: var(--font-body);
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: .04em;
+  opacity: .85;
+  transition: opacity 180ms;
+}
+.demo-link:hover { opacity: 1; }
+
 .store-badge-svg {
   display: block;
   height: 52px;
